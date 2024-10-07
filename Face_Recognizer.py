@@ -14,7 +14,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 id = 0
-names = ['NguyenNgocTruong','Huy', 'Obama']
+names = ['Truong','Huy', 'Obama']
 
 cam = cv2.VideoCapture(0)
 cam.set(3, 640)
@@ -28,9 +28,9 @@ if not os.path.exists('Unknown_Image'):
     os.makedirs('Unknown_Image')
 
 # Configure email
-email_user = 'truonggom656@gmail.com'
-email_password = '01662366623'
-email_send = 'nguyenngoctruong31102003@gmail.com'
+email_user = 
+email_password = 
+email_send = 
 
 subject = 'Thông báo: Đã phát hiện người lạ'
 
